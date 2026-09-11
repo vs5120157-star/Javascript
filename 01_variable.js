@@ -20,5 +20,3 @@ because it is function scoped and can be redeclared and updated.
 console.log([accountid, accountemail, accountpassword, accountcity, accountstate]);
 // run karne ki command
 // C:\javascript>node 01_basics/01_variable.js
-
-// lecture 4 complete and lecture 13 is in progress
