@@ -1,24 +1,24 @@
-const accountId = 24132
-let accountEmail = "vikas@example.com"
-var accountPassword = "12345"
-accountCity = "New York"
-let accountState;
+const accountid = 24132
+let accountemail = "vikas@example.com"
+var accountpassword = "12345"
+accountcity = "New York"
+let accountstate;
 
-// accountId = 2 not allowed because it is a constant variable
+// accountid = 2 not allowed because it is a constant variable
 
-accountEmail = "vikas.updated@example.com"
-accountPassword = "123456"
-accountCity = "Los Angeles"
+accountemail = "vikas.updated@example.com"
+accountpassword = "123456"
+accountcity = "Los Angeles"
 
-console.log(accountId)
+console.log(accountid)
 
 /*
 prefer not use var
 because it is function scoped and can be redeclared and updated.
 */
 
-console.log([accountId, accountEmail, accountPassword, accountCity, accountState]);
+console.log([accountid, accountemail, accountpassword, accountcity, accountstate]);
 // run karne ki command
 // C:\javascript>node 01_basics/01_variable.js
 
-// lecture 4 commplete and lecture 9 is in progress
+// lecture 4 complete and lecture 13 is in progress
